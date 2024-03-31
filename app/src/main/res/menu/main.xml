@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorite"
+        android:orderInCategory="100"
+        android:title="Tambahkan ke favorit"
+        android:icon="@drawable/star"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_stopfollow"
+        android:orderInCategory="100"
+        android:title="Berhenti mengikuti"
+        android:icon="@drawable/people"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reason"
+        android:orderInCategory="100"
+        android:title="Mengapa Anda melihat postingan_ini"
+        android:icon="@drawable/infoinsta"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_hide"
+        android:orderInCategory="100"
+        android:title="Sembunyikan"
+        android:icon="@drawable/hide"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="Tentang akun ini"
+        android:icon="@drawable/info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_report"
+        android:orderInCategory="100"
+        android:title="Laporkan"
+        android:icon="@drawable/alert"
+        app:showAsAction="never" />
+
+</menu>
